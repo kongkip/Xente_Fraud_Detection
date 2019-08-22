@@ -45,8 +45,8 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # load the dataset
-df = pd.read_csv("training.csv")
-test = pd.read_csv("test.csv")
+df = pd.read_csv("data/training.csv")
+test = pd.read_csv("data/test.csv")
 
 
 
@@ -331,7 +331,7 @@ for key, classifier in classifiers.items():
 
 
 # Prepare the test set
-sub = pd.read_csv("sample_submission.csv")
+sub = pd.read_csv("submission/ample_submission.csv")
 # test_set.head()
 
 # sub.head()
